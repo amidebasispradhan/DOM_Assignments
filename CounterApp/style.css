@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conatiner {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #000;
+  margin-top: -100px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+p {
+  cursor: text;
+  padding: 5px 15px;
+  font-size: 1.5rem;
+  border: 1.5px solid rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
